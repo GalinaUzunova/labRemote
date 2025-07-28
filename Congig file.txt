@@ -1,4 +1,4 @@
-o
+
 @Configuration                                                           
 public class ApplicationBeanConiguration {                               
                                                                          
@@ -14,9 +14,16 @@ public class ApplicationBeanConiguration {
                 .excludeFieldsWithoutExposeAnnotation()                  
                 .create();                                               
     }                                                                    
+    @Bean                                                                
     public Validator validator(){                                        
         return Validation.buildDefaultValidatorFactory().getValidator(); 
+
     }   
-hello
+   @Bean
+public User user()
+{
+return new User;
+hiiii
+                                                                 
 }                                                                        
                                                                          
