@@ -14,7 +14,6 @@ public class ApplicationBeanConiguration {
                 .excludeFieldsWithoutExposeAnnotation()                  
                 .create();                                               
     }                                                                    
-    @Bean                                                                
     public Validator validator(){                                        
         return Validation.buildDefaultValidatorFactory().getValidator(); 
     }                                                                    
