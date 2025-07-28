@@ -23,6 +23,12 @@ public class ApplicationBeanConiguration {
 public User user()
 {
 return new User;
+<<<<<<< HEAD
 change from local                                                                 
+=======
+
+
+                                                                 
+>>>>>>> c05e8fe4ff3cc4d735a66aa58a5b96045468538b
 }                                                                        
                                                                          
