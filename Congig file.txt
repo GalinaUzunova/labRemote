@@ -1,4 +1,4 @@
-
+o
 @Configuration                                                           
 public class ApplicationBeanConiguration {                               
                                                                          
@@ -16,6 +16,7 @@ public class ApplicationBeanConiguration {
     }                                                                    
     public Validator validator(){                                        
         return Validation.buildDefaultValidatorFactory().getValidator(); 
-    }                                                                    
+    }   
+hello
 }                                                                        
                                                                          
