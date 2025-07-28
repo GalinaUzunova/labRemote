@@ -23,8 +23,12 @@ public class ApplicationBeanConiguration {
 public User user()
 {
 return new User;
-hiiii
+
+<<<<<<< HEAD
 vaa
+=======
+bla bla bla
+>>>>>>> 9f3dd67425786d2eba50eac13b26f4bfd5b179d8
                                                                  
 }                                                                        
                                                                          
